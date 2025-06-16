@@ -47,7 +47,7 @@ export default function AddressCard() {
   };
 
   return (
-    <TooltipProvider>
+    <TooltipProvider delayDuration={200}>
       <div className="flex flex-col gap-5">
         <div className="text-center space-y-1">
           <h2 className="text-xl font-semibold text-neutral-200">

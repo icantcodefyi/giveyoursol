@@ -13,7 +13,9 @@ function App() {
           rotation={0}
         />
       </div>
-      <AddressCard />
+      <div className="px-2">
+        <AddressCard />
+      </div>
     </main>
   );
 }
