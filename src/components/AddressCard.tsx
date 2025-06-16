@@ -49,6 +49,20 @@ export default function AddressCard() {
   return (
     <TooltipProvider>
       <div className="flex flex-col gap-5">
+        <div className="text-center space-y-1">
+          <h2 className="text-xl font-semibold text-neutral-200">
+            Donate to{" "}
+            <a 
+              href="https://x.com/icantcodefyi" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-neutral-300 hover:text-neutral-100 transition-colors hover:underline decoration-neutral-600 hover:decoration-neutral-400"
+            >
+              icantcodefyi
+            </a>
+          </h2>
+          <p className="text-neutral-300 hover:text-neutral-100">0/700$</p>
+        </div>
         {addresses.map((addr) => (
           <Card key={addr.network} className="bg-neutral-900 border border-neutral-800 hover:border-neutral-700 transition-colors">
             <CardContent className="p-4">
