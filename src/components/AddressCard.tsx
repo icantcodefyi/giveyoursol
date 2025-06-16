@@ -61,7 +61,7 @@ export default function AddressCard() {
               icantcodefyi
             </a>
           </h2>
-          <p className="text-neutral-300 hover:text-neutral-100">0/700$ <br /> so he can get an iphone 16</p>
+          <p className="text-neutral-300 hover:text-neutral-100">240/700$ <br /> so he can get an iphone 16</p>
         </div>
         {addresses.map((addr) => (
           <Card key={addr.network} className="bg-neutral-900 border border-neutral-800 hover:border-neutral-700 transition-colors">
